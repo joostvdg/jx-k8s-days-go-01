@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "Welcome, this Kubernetes Days"
+	title := "Welcome, to this Kubernetes Days"
 
 	from := ""
 	if r.URL != nil {
